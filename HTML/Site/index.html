@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+</head>
+<body>
+    <header>
+        <h1>Venha experimentar as melhores bebidas</h1>
+    </header>
+    <section>
+        <h2>Bebidas</h2>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat convallis sem, vitae vehicula arcu vestibulum a. Nam eget lacus dolor. 
+        Sed vulputate, ex eget luctus imperdiet, libero erat mattis neque, ut semper urna nibh nec augue. Vivamus et ultricies magna. 
+        Praesent a consequat nibh. Quisque sit amet blandit nulla. Vestibulum odio nisl, maximus non malesuada vel, pellentesque eget dui. 
+        Phasellus iaculis at nisl accumsan viverra. Praesent tempus urna sit amet euismod auctor. Nullam sodales est nunc, eget condimentum velit fermentum at. 
+        <br><br>
+        <a href="https://br.lipsum.com">Link</a>
+        <hr>
+    </p>
+    </section>
+    <section>
+        <h2>Faça seu pedido</h2>
+        <form method="get" action="">
+            <fieldset>
+                <label>Nome</label><br>
+                <input type="text" name="Nome"><br><br>
+    
+                <label>E-mail</label><br>
+                <input type="email" required name="E-mail"><br><br>
+    
+                <label>Data de Nascimento</label><br>
+                <input type="date" name="dataDeNascimento"><br><br>
+    
+                <label>Quantas bebidas?</label><br>
+                <input  type="number" required name="Reserva"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Quais bebidas deseja Comprar?</legend>
+                <label>
+                    <input type="checkbox" name="Bebidas Quentes" value="Quentes">Bebidas Quentes
+                </label><br>
+                <Label>
+                    <input type="checkbox" name="Bebidas Geladas" value="Geladas">Bebidas Geladas
+                </Label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Qual(is) bebida(s) deseja?</legend>
+                <br><select name="bebidas">
+                    <option value="cafe">Café</option>
+                    <option value="cha">Chá</option>
+                    <option value="suco">Suco</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Formas de pagamento</legend>
+                <label>
+                    <input type="radio" name="formaPagamento" value="Dinheiro">Dinheiro
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de Débito">Cartão de débito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Sua experiencia com os nossos serviços</legend>
+                <label>Nos conte como foi sua experiencia com a gente!</label><br>
+                <textarea rows="5" name="Comentário"></textarea><br><br>
+            </fieldset>
+           
+            <button>Fazer pedido!</button>
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por Igor Pedote </p>
+    </footer>
+</body>
+</html>
